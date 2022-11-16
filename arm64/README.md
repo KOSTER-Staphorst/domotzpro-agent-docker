@@ -34,7 +34,7 @@ For more information: [Domotz Website](https://www.domotz.com)
 
 On a Linux platform, start the Docker container as a background service:
 
-    docker run --network=host --cap-add NET_ADMIN --publish 3000:3000 -d kosterstaphorst/domotzpro-agent-amd64
+    docker run --network=host --cap-add NET_ADMIN --publish 3000:3000 -d kosterstaphorst/domotzpro-agent-arm64
 
 Once the Domotz Agent has been started in the Docker Container connect to the host IP on port 3000 and follow the instruction to configure the Domotz Agent. E.g.
 
@@ -59,4 +59,4 @@ On Mac and Windows platforms the container is not able to discover devices and m
 
 To launch the container and start monitoring your Docker network you can simply type:
 
-    docker run --publish 3000:3000 -d kosterstaphorst/domotzpro-agent-amd64
+    docker run --publish 3000:3000 -d kosterstaphorst/domotzpro-agent-arm64

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build . -t domotz/domotzpro-agent-amd64
+docker build . -t kosterstaphorst/domotzpro-agent-amd64
